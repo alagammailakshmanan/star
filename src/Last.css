@@ -1,0 +1,110 @@
+.last_a{
+    background-color:lightgrey;
+    width:100%;
+    height:100%;
+    max-width:100% ;
+    min-height:100% ;
+}
+.liststyle{
+    list-style-type: circle;
+}
+/* .movement1{
+    position:relative;
+    left:100px;
+}
+.movement2{
+    position:relative;
+    display:block;
+   padding-left:15px;
+  padding-right:15px;
+}
+
+.movement3{
+    position:absolute;
+    top:85px;
+    left:600px;
+    bottom:0px;
+}
+.movement4{
+    position:absolute;
+    top:85px;
+    left:900px;
+    bottom:0px;
+}
+.movement5{
+    position:absolute;
+    top:85px;
+    left:1100px;
+    bottom:0px;
+}*/
+.movement6{
+    position:relative;
+    left:120px;
+    color:grey
+}
+.movement7{
+    position:relative;
+    left:120px;
+    color:lightgrey
+}
+@media only screen and (max-width: 600px) {
+    .movement7 {
+        position:relative;
+        left:200px;
+        top:0px;
+        color:grey;
+    }
+    .liststyle{
+        list-style-type: none;
+        
+    }
+    .movement{
+       display: none;
+        font-display: none;
+    }
+    /* .movement2{
+        display: none;
+        font-display: none;
+        
+    }
+    
+    .movement3{
+        display: none;
+        font-display: none;
+    }
+    .movement4{
+        display: none;
+        font-display: none;
+    }
+    .movement5{
+        display: none;
+        font-display: none;
+    }*/
+    .movement6{
+        display: none;
+        font-display: none;
+    } 
+    
+  } 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .movement {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  .move{
+      position:relative;
+      left:100px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

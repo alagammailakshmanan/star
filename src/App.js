@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './star.css';
+import Marquee from 'marquee-react-dwyer';
 //import {Link} from "react-router-dom";
 import { Button} from 'react-bootstrap';
 
@@ -28,18 +29,21 @@ class App extends Component {
   letter-spacing:0.02;
   transform: translateY(4px);
   box-shadow: 0 5px #666;
+  min-width: 20px;  // add this if you want
+   max-width: 30px; // add this if  you want, adjust accordingly
+
   
 }
 .btn-flat:hover{
   background-color:rgb(162, 218, 239);
   color:white;
-  transition:.5s all ease-in-out;
+  transition:.8s all ease-in-out;
   
 }
 
 .btn-xxl {
   padding: 0.5rem 0.3rem;
-  font-size: 1.0rem;
+  font-size: 0.8rem;
 }
 `}
 </style>
@@ -51,6 +55,7 @@ class App extends Component {
 <Button variant="flat" size="xxl" href="https://www.starhealth.in/#accidentcarecontent" target="_blank">Accident care</Button>
 </center>
 </div>
+
     </div>
             
        

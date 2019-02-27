@@ -1,0 +1,35 @@
+.center_text_static{
+    text-align:center;
+    color:whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+    word-spacing:5px;
+    text-align: center;
+    font-size:20px;
+    padding:50px;
+   }
+.fix_people_static{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.box_people_static{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box_people_static .text_people_static{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 60%; /* Set the width of the positioned div */
+    font-size:larger;
+    word-spacing:5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back_static{
+    background-color: rgb(11, 15, 124)
+}
